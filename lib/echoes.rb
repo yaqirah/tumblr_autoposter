@@ -1,3 +1,7 @@
+blog = "daily-koichi"
+file_path_unused = "/mnt/c/Users/Yaqirah/Dropbox/Koichis/Unused/"
+file_path_used = "/mnt/c/Users/Yaqirah/Dropbox/Koichis/Used/"
+
 #fuction definitions
 def get_file(file, file_path)
 	found = false
