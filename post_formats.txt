@@ -1,0 +1,16 @@
+examples
+-----------
+client.text(blog, title: blog, body: blog, tags: ["bot-testing", blog])
+client.photo(blog, {:data => ['/mnt/c/Users/Yaqirah/Downloads/JPEG_20170329_034928.jpg', '/mnt/c/Users/Yaqirah/Downloads/JPEG_20170329_034928.jpg'], state: "queue", tags: ["bot-testing", "adding photos is easier than expected"]})
+
+format
+-----------
+client.[post_type]([blog_name],[parameters])
+
+parameters
+-----------
+title						post title
+body						post body
+tags						tags on post (array)
+:data => [file_location] 	use for images (array)
+state						use published for normal posts; queue for queue
